@@ -1,0 +1,66 @@
+html {
+    color: aliceblue;
+}
+
+.banner {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-self: center;
+    max-width: 75%;
+}
+
+.main-text {
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+}
+
+.pageback {
+    background-image: url('../deco/img/StarBackground.gif');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-holder {
+    margin-left: -20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 275px;
+    width: 200px;
+
+}
+
+.nav-button {
+    font-family: voyager, Tahoma, Verdana, sans-serif;
+    border: none;
+    font-size: xx-large;
+    text-align: right;
+    padding-right: 70px;
+    background-image: url('../deco/img/buttonback.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    height: 60px;
+    width: 370px;
+    color: black;
+    position: relative;
+    left: -159px;
+    transition: all ease 0.5s;
+}
+
+.nav-button:hover {
+    color: aliceblue;
+    left: -90px;
+    background-image: url('../deco/img/buttonback_black.svg');
+}
+
+@font-face {
+    font-family: voyager;
+    src: url('../style/fonts/Voyager-Grotesque_regular_.woff');
+}
