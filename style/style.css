@@ -4,8 +4,7 @@ html {
 
 .banner {
     display: block;
-    top: 20px;
-    margin: auto;
+    margin: 30px auto 0px auto;
     align-self: center;
     max-width: 75%;
 }
@@ -58,7 +57,7 @@ html {
     background-image: url('../deco/img/buttonback_black.svg');
 }
 
-.nav-holder>ul>li>a{
+.nav-holder>ul>li>a {
     padding: 0;
     margin: 0;
 }
@@ -80,38 +79,45 @@ a:visited {
     color: aliceblue;
 }
 
-h2{
+h2 {
     color: aliceblue;
     font-family: voyager, Tahoma, Verdana, sans-serif;
-}
-h4{
-    color: aliceblue;
-    font-family: voyager, Tahoma, Verdana, sans-serif;
-}
-p{
-    font-family: Tahoma,Verdana,sans-serif;
 }
 
-.mugshot{
+h4 {
+    color: aliceblue;
+    font-family: voyager, Tahoma, Verdana, sans-serif;
+}
+
+p {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.mugshot {
     min-width: 200px;
     max-width: 200px;
 }
 
-.image-holders{
+.image-holders {
     display: grid;
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-.image-holders>div{
+.image-holders>div {
+    background-color: slategray;
+    border: aliceblue 3px solid;
     display: inline-grid;
     margin-left: auto;
     margin-right: auto;
+    max-width: 200px;
 }
-.image-holders>div>p{
+
+.image-holders>div>p {
     text-align: center;
     font-size: small;
 }
+
 @font-face {
     font-family: voyager;
     src: url('../style/fonts/Voyager-Grotesque_regular_.woff');
