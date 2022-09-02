@@ -92,6 +92,26 @@ p{
     font-family: Tahoma,Verdana,sans-serif;
 }
 
+.mugshot{
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.image-holders{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.image-holders>div{
+    display: inline-grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-holders>div>p{
+    text-align: center;
+    font-size: small;
+}
 @font-face {
     font-family: voyager;
     src: url('../style/fonts/Voyager-Grotesque_regular_.woff');
