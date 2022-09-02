@@ -61,6 +61,37 @@ html {
     background-image: url('../deco/img/buttonback_black.svg');
 }
 
+.nav-holder>ul>li>a{
+    padding: 0;
+    margin: 0;
+}
+
+.toc {
+    z-index: 999999;
+    padding-right: 2vh;
+    max-width: fit-content;
+    background-color: black;
+    border: 1px aliceblue solid;
+    line-height: 20px;
+    font-family: voyager, Tahoma, Verdana, sans-serif;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+    font-family: voyager, Tahoma, Verdana, sans-serif;
+}
+p{
+    font-family: Tahoma,Verdana,sans-serif;
+}
+
 @font-face {
     font-family: voyager;
     src: url('../style/fonts/Voyager-Grotesque_regular_.woff');
