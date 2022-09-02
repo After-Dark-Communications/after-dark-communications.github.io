@@ -3,10 +3,8 @@ html {
 }
 
 .banner {
-    position: absolute;
+    display: block;
     top: 20px;
-    left: 0;
-    right: 0;
     margin: auto;
     align-self: center;
     max-width: 75%;
@@ -30,9 +28,8 @@ html {
 
 .nav-holder {
     margin-left: -20px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 275px;
+    position: fixed;
+    top: 20px;
     width: 200px;
 
 }
