@@ -13,7 +13,7 @@ html {
 }
 
 .main-text {
-    width: 75%;
+    width: 62%;
     margin: auto;
     text-align: justify;
     align-content: center;
@@ -67,7 +67,6 @@ html {
 }
 
 .toc {
-    z-index: 999999;
     padding-right: 2vh;
     max-width: fit-content;
     background-color: black;
