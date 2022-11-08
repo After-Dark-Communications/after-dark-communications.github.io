@@ -118,6 +118,14 @@ p {
     font-size: small;
 }
 
+.game-images{
+    border: 1px solid aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 252px;
+}
+
 @font-face {
     font-family: voyager;
     src: url('../style/fonts/Voyager-Grotesque_regular_.woff');
